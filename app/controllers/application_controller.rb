@@ -3,7 +3,7 @@ class ApplicationController < Sinatra::Base
   
   # Add your routes here
   get "/" do
-    { message: "Good luck with your project now!" }.to_json
+    { message: "Welcome to The Bravo Library Management System Server!" }.to_json
   end
 
   #authors
